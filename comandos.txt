@@ -6,3 +6,4 @@ git branch nombre_rama: para abrir ramas nuevas y editar cada una sus cosas
 git merge: para añadir la rama que abramos al main
 git status: ver el estado
 git checkout nombre_rama: para ir a una rama
+git merge: actualizar en la rama principal
