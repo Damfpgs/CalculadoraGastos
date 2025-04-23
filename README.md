@@ -23,10 +23,27 @@ Aplicación Java para dividir gastos entre varias personas de forma sencilla. Pe
 4. Selecciona "Ver resumen de deudas" para saber quién debe a quién.
 
 
-# 👨‍💻 Equipo de desarrollo
+#  Equipo de desarrollo
 
 - **[Ainoha ]** – Gastos.
 - **[Patricia ]** – Calculadora.
 - **[Sara ]** – Main.
 
 ---
+
+# Control de errores y problemas simulados
+
+Durante el desarrollo hemos simulado errores y situaciones reales de trabajo en equipo:
+
+1. **Conflicto de edición en GitHub**
+   - Dos integrantes editaron el mismo archivo (`Calculadora.java`) a la vez.
+   - Se generó un conflicto al hacer push.
+   - Se resolvió manualmente con ayuda de GitHub Desktop y Visual Studio Code.
+
+2. **Volver commits atrás**
+   - Se realizaron dos commits con errores en los cálculos.
+   - Usamos `git revert` para volver a una versión anterior y corregirlos.
+   - Todo está documentado en el archivo [`errores.md`](errores.md).
+
+---
+
