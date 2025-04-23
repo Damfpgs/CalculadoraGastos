@@ -1,0 +1,4 @@
+git pull origin main: actualizar cambios
+git add .   : espacio trabajo
+git commit -m"tu_mensaje" : como una fotografia
+git push origin main: subir cambios
