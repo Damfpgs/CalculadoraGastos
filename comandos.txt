@@ -2,3 +2,5 @@ git pull origin main: actualizar cambios
 git add .   : espacio trabajo
 git commit -m"tu_mensaje" : como una fotografia
 git push origin main: subir cambios
+git branch: para abrir ramas nuevas y editar cada una sus cosas
+git merge: para añadir la rama que abramos al main
