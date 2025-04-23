@@ -22,5 +22,21 @@ public class Calculadora {
                 }
             }
         }
+        
+        System.out.println("\n--- RESUMEN DE DEUDAS ---");
+        for (Map.Entry<String, Double> entry : balance.entrySet()) {
+            String persona = entry.getKey();
+            double saldo = entry.getValue();
+
+            if (saldo > 0) {
+                System.out.printf("%s debe recibir: %.2f €\n", persona, saldo);
+            } else if (saldo < 0) {
+                System.out.printf("%s debe pagar: %.2f €\n", persona, -saldo);
+            } else {
+                System.out.printf("%s está equilibrado.\n", persona);
+            }
+        }
     }
 }
+    
+
