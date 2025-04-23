@@ -10,3 +10,16 @@ public class Gasto {
         this.cantidad = cantidad;
         this.participantes = participantes;
     }
+
+    public String getPagador() {
+        return pagador;
+    }
+
+    public double getCantidad() {
+        return cantidad;
+    }
+
+    public List<String> getParticipantes() {
+        return participantes;
+    }
+}
