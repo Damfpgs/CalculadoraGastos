@@ -42,7 +42,8 @@ public class main {
                     case 2:
                     calculadora.mostrarResumen();
                     break;
-                    
+
+
             }
         }
     }
