@@ -38,6 +38,11 @@ public class main {
                     calculadora.agregarGasto(nuevoGasto);
                     System.out.println("Gasto registrado.");
                     break;
+
+                    case 2:
+                    calculadora.mostrarResumen();
+                    break;
+                    
             }
         }
     }
