@@ -47,6 +47,8 @@ public class main {
                     System.out.println("¡Hasta pronto!");
                     return;
 
+                    default:
+                    System.out.println("Opción inválida.");
             }
         }
     }
