@@ -43,6 +43,9 @@ public class main {
                     calculadora.mostrarResumen();
                     break;
 
+                    case 3:
+                    System.out.println("¡Hasta pronto!");
+                    return;
 
             }
         }
