@@ -33,6 +33,7 @@ public class main {
                         System.out.println("Nombre del participante " + (i + 1) + ": ");
                         participantes.add(scanner.nextLine());
                     }
+                    //Fallos generados
 
                     Gasto nuevoGasto = new Gasto(pagador, cantidad, participantes);
                     calculadora.agregarGasto(nuevoGasto);
