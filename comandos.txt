@@ -10,4 +10,4 @@ git merge: actualizar en la rama principal
 
 rama ainoha: gasto
 rama patri: calculadora
-rama sara: main1
+rama sara: ramaSara
